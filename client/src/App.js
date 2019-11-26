@@ -5,7 +5,7 @@ import Prediction from './Prediction';
 import Header from './Header';
 import axios from 'axios';
 
-const apiURL = 'http://localhost:3001';
+const apiURL = 'http://ec2-3-10-175-0.eu-west-2.compute.amazonaws.com:3001';
 const classifierURL = `${ apiURL }/prediction/exterior_interior`;
 
 function App() {
