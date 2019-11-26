@@ -1,0 +1,25 @@
+.camera {
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+  
+  img {
+    display: block;
+    width: 100%;
+
+    &.is-fetching {
+      filter: grayscale(0.8);
+      cursor: not-allowed;
+    }
+  }
+
+  .placeholder {
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 200px;
+    border-radius: 20px;
+    background-color: #1976D2;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+}

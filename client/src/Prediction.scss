@@ -1,0 +1,21 @@
+.prediction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  
+  div {
+    padding: 30px;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    &.exterior {
+      background-color: #0288D1;
+      border-radius: 0 0 0 10px;
+    }
+
+    &.interior {
+      background-color: #E64A19;
+      border-radius: 0 0 10px 0;
+    }
+  }
+}
