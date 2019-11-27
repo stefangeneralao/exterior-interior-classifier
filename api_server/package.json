@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon .",
-    "start": "node ."
+    "start": "node .",
+    "build-docker": "docker build -t api_server .",
+    "run-docker": "docker run -p 3001:3001 -d --name api_server api_server",
+    "rm-docker": "docker stop api_server && docker rm api_server"
   },
   "dependencies": {
     "axios": "^0.19.0",

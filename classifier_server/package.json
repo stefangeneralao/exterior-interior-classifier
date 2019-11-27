@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "python3 server.py"
+    "start": "python3 server.py",
+    "build-docker": "docker build -t classifier_server .",
+    "run-docker": "docker run -p 5000:5000 -d --name classifier_server classifier_server",
+    "rm-docker": "docker stop classifier_server && docker rm classifier_server"
   }
 }

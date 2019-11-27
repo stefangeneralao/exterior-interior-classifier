@@ -3,7 +3,9 @@ const multer = require('multer');
 const axios = require('axios');
 const fs = require('fs');
 
-const classifierURL = 'http://localhost:5000';
+const classifierURL = (process.env.CLASSIFIER_URL && process.env.CLASSIFIER_PORT) ?
+  `${ process.env.CLASSIFIER_URL }:${ process.env.CLASSIFIER_PORT }` :
+  'http://localhost:5000';
 const uploadsDir = __dirname + '/uploads';
 const upload = multer({
   dest: uploadsDir
