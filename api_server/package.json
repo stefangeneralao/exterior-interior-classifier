@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "nodemon .",
     "start": "node .",
-    "build-docker": "docker build -t api_server .",
-    "run-docker": "docker run -p 3001:3001 -d --name api_server api_server",
-    "rm-docker": "docker stop api_server && docker rm api_server"
+    "build-docker": "docker build -t extint_api .",
+    "run-docker": "docker run -p 3001:3001 -d --name extint_api extint_api",
+    "rm-docker": "docker stop extint_api && docker rm extint_api"
   },
   "dependencies": {
     "axios": "^0.19.0",

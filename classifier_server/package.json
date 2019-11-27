@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "python3 server.py",
-    "build-docker": "docker build -t classifier_server .",
-    "run-docker": "docker run -p 5000:5000 -d --name classifier_server classifier_server",
-    "rm-docker": "docker stop classifier_server && docker rm classifier_server"
+    "build-docker": "docker build -t extint_classifier .",
+    "run-docker": "docker run -p 5000:5000 -d --name extint_classifier extint_classifier",
+    "rm-docker": "docker stop extint_classifier && docker rm extint_classifier"
   }
 }
