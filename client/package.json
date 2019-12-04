@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "build-docker": "yarn build && docker build -t extint_client . && rm -rf build",
     "run-docker": "docker run -p 3000:3000 -d --name extint_client extint_client",
-    "rm-docker": "docker stop extint_client && docker rm extint_client"
+    "rm-docker": "docker stop extint_client && docker rm extint_client",
+    "update-docker": "./update_docker_image.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "/exterior-interior"
 }

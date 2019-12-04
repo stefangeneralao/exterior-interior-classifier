@@ -1,6 +1,7 @@
 FROM node:13-alpine
 WORKDIR /usr/src/app
-COPY build .
-RUN yarn global add serve
+RUN mkdir build prodServer
+COPY build build
+COPY prodServer prodServer
 EXPOSE 3000
-CMD ["serve", "-s", "-p", "3000", "."]
+CMD ["node", "prodServer"]
