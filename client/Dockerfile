@@ -1,7 +1,7 @@
 FROM node:13-alpine
 WORKDIR /usr/src/app
-RUN mkdir build prodServer
+RUN mkdir build production_server
 COPY build build
-COPY prodServer prodServer
+COPY production_server production_server
 EXPOSE 3000
-CMD ["node", "prodServer"]
+CMD ["node", "production_server"]
