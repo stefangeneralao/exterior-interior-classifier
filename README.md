@@ -593,6 +593,7 @@ Various interesting classifications are presented in this section. The classific
 I thank Vic Ciesielski, Prince Hemrajani, Kendall Taylor and fellow students for providing valuable material and comments for various parts of this project. I also thank graphic designer student Jenna Knuuti for automating the process of creating occlusion based on the class activation maps.
 
 <div style="page-break-after: always;"></div>
+
 ## References
 
 [1] Arzhaeva, Y., Wang, D., Devnath, L., Amirgholipour, S., McBean, R., Hillhouse, J., Luo, S., Meredith, D., Newbigin, K. and Yates, D. (2019). *Development of Automated Diagnostic Tools for Pneumoconiosis Detection from Chest X-Ray Radiographs*. Available at: https://www.coalservices.com.au/wp-content/uploads/2017/11/Project-No.-20647-Final-Report.pdf [Accessed 18 Oct. 2019].
