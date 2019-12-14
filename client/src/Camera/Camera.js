@@ -5,7 +5,11 @@ function Camera({ onImageUpload, imageURL, isFetching }) {
   const fileUpload = useRef();
   
   const image = imageURL ?
-    <img src={ imageURL } alt="uploaded" className={ isFetching && 'is-fetching' } /> :
+    <img
+      src={ imageURL }
+      alt="uploaded"
+      className={ isFetching ? 'is-fetching' : undefined }
+    /> :
     <div className="placeholder">Upload</div>;
   
   const onClickHandler = () => {
