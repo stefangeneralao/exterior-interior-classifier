@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const classifierURL = (process.env.CLASSIFIER_URL && process.env.CLASSIFIER_PORT) ?
   `${ process.env.CLASSIFIER_URL }:${ process.env.CLASSIFIER_PORT }` :
-  'http://localhost:5000';
+  'http://localhost:3002';
 const uploadsDir = __dirname + '/uploads';
 const upload = multer({
   dest: uploadsDir
