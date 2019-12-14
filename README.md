@@ -409,6 +409,7 @@ Masking the parts of the image with high focus shows to slightly affect predicti
 </div>
 
 <div style="page-break-after: always;"></div>
+
 ### 8.1 Assumption of Classifier Focuses More on Interior
 
 <div style="float:right; width:175px; margin-left:30px; page-break-inside:avoid;">
