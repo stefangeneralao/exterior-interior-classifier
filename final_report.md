@@ -11,13 +11,13 @@ Semi-supervised learning includes the challange to classify a large unlabeled da
 ## 2 Dataset
 <div style="float:right; width:175px; margin-left:30px; page-break-inside:avoid;">
   <div style="margin-bottom:30px; margin-top:7px;">
-    <img src="sample-interior.jpg" alt="interior example"/>
+    <img src="report_images/sample-interior.jpg" alt="interior example"/>
     <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
       Figure 1: Interior image
     </p>      
   </div>
   <div style="margin-bottom:30px; margin-top:7px;">
-    <img src="sample-exterior.jpg" alt="exterior example"/>
+    <img src="report_images/sample-exterior.jpg" alt="exterior example"/>
     <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
       Figure 2: Exterior image
     </p>
@@ -46,13 +46,13 @@ ToC is a classification strategy that lets predictions between a set lower and u
 <div style="background-color:#f8f8f8; padding:30px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="toc_1.jpg" alt="Threshold of certainty example 1"/>
+      <img src="report_images/toc_1.jpg" alt="Threshold of certainty example 1"/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
         (a) Lower threshold=0.1, upper threshold=0.9
       </p>
     </div>
     <div>
-      <img src="toc_2.jpg" alt="Threshold of certainty example 2"/>
+      <img src="report_images/toc_2.jpg" alt="Threshold of certainty example 2"/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
         (b) Lower threshold=0.4, upper threshold=0.6
       </p>
@@ -73,7 +73,7 @@ Generating class activation maps is a way of interpreting and sometimes debuggin
 ## 4 Manual Labeling
 <div style="float:right; width:175px; margin-left:30px; page-break-inside:avoid;">
   <div style="margin-bottom:30px; margin-top:7px;">
-    <img src="labeling-app.jpg" alt="Manual labeling application"/>
+    <img src="report_images/labeling-app.jpg" alt="Manual labeling application"/>
     <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
       Figure 4: Screenshot of manual labeling web application for Android
     </p>
@@ -138,7 +138,7 @@ Initially, image transformation was applied for all RGB-channels but in later st
 <div style="background-color:#f8f8f8; padding:30px; page-break-inside:avoid;">
   <div style="width:100%; margin-bottom:10px;">
     <div>
-      <img src="image_augmentation_samples.jpg" alt="Image augmentation samples"/>
+      <img src="report_images/image_augmentation_samples.jpg" alt="Image augmentation samples"/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin-top:20px;">
         Figure 6: Image augmentation samples
       </p>
@@ -151,13 +151,13 @@ Categorical crossentropy loss function was used for fitting the classifier as it
 <div style="background-color:#f8f8f8; padding:30px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="loss_history.jpg" alt="training loss history"/>
+      <img src="report_images/loss_history.jpg" alt="training loss history"/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
         (a) Loss over epochs
       </p>
     </div>
     <div>
-      <img src="accuracy_history.jpg" alt="training accuracy history"/>
+      <img src="report_images/accuracy_history.jpg" alt="training accuracy history"/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
         (b) Accuracy over epochs
       </p>
@@ -271,8 +271,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
 <div style="background-color:#f8f8f8; padding:10px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="cam_original_1.jpg" alt="class activation map original 1"/>
-      <img src="cam_heatmap_1.jpg" alt="class activation map 1"/>
+      <img src="report_images/cam_original_1.jpg" alt="class activation map original 1"/>
+      <img src="report_images/cam_heatmap_1.jpg" alt="class activation map 1"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (a) Classified as:<br/>
         Exterior: 100.0%<br/>
@@ -280,8 +280,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="cam_original_4.jpg" alt="class activation map original 4"/>
-      <img src="cam_heatmap_4.jpg" alt="class activation map 4"/>
+      <img src="report_images/cam_original_4.jpg" alt="class activation map original 4"/>
+      <img src="report_images/cam_heatmap_4.jpg" alt="class activation map 4"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (b) Classified as:<br/>
         Exterior: 100.0%<br/>
@@ -289,8 +289,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="cam_original_5.jpg" alt="class activation map original 5"/>
-      <img src="cam_heatmap_5.jpg" alt="class activation map 5"/>
+      <img src="report_images/cam_original_5.jpg" alt="class activation map original 5"/>
+      <img src="report_images/cam_heatmap_5.jpg" alt="class activation map 5"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (c) Classified as:<br/>
         Exterior: 100.0%<br/>
@@ -306,8 +306,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
 <div style="background-color:#f8f8f8; padding:10px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="occ_ext_1.jpg" alt="Occlusion sample 1"/>
-      <img src="occ_heatmap_1.jpg" alt="Occlusion sample 1"/>
+      <img src="report_images/occ_ext_1.jpg" alt="Occlusion sample 1"/>
+      <img src="report_images/occ_heatmap_1.jpg" alt="Occlusion sample 1"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (a) Classified as:<br/>
         Exterior: 100.0%<br/>
@@ -315,8 +315,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="occ_ext_4.jpg" alt="Occlusion sample 4"/>
-      <img src="occ_heatmap_4.jpg" alt="Occlusion sample 4"/>
+      <img src="report_images/occ_ext_4.jpg" alt="Occlusion sample 4"/>
+      <img src="report_images/occ_heatmap_4.jpg" alt="Occlusion sample 4"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (b) Classified as:<br/>
         Exterior: 100.0%<br/>
@@ -324,8 +324,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="occ_ext_5.jpg" alt="Occlusion sample 5"/>
-      <img src="occ_heatmap_5.jpg" alt="Occlusion sample 5"/>
+      <img src="report_images/occ_ext_5.jpg" alt="Occlusion sample 5"/>
+      <img src="report_images/occ_heatmap_5.jpg" alt="Occlusion sample 5"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (c) Classified as:<br/>
         Exterior: 100.0%<br/>
@@ -341,8 +341,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
 <div style="background-color:#f8f8f8; padding:10px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="cam_original_2.jpg" alt="class activation map original 2"/>
-      <img src="cam_heatmap_2.jpg" alt="class activation map 2"/>
+      <img src="report_images/cam_original_2.jpg" alt="class activation map original 2"/>
+      <img src="report_images/cam_heatmap_2.jpg" alt="class activation map 2"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (a) Classified as:<br/>
         Exterior: 0.0%<br/>
@@ -350,8 +350,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="cam_original_3.jpg" alt="class activation map original 3"/>
-      <img src="cam_heatmap_3.jpg" alt="class activation map 3"/>
+      <img src="report_images/cam_original_3.jpg" alt="class activation map original 3"/>
+      <img src="report_images/cam_heatmap_3.jpg" alt="class activation map 3"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (b) Classified as:<br/>
         Exterior: 0.0%<br/>
@@ -359,8 +359,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="cam_original_6.jpg" alt="class activation map original 6"/>
-      <img src="cam_heatmap_6.jpg" alt="class activation map 6"/>
+      <img src="report_images/cam_original_6.jpg" alt="class activation map original 6"/>
+      <img src="report_images/cam_heatmap_6.jpg" alt="class activation map 6"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (c) Classified as:<br/>
         Exterior: 0.0%<br/>
@@ -376,8 +376,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
 <div style="background-color:#f8f8f8; padding:10px; page-break-inside:avoid;">
 	<div style="width:100%; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="occ_int_2.jpg" alt="Occlusion sample 2"/>
-      <img src="occ_heatmap_2.jpg" alt="Occlusion sample 2"/>
+      <img src="report_images/occ_int_2.jpg" alt="Occlusion sample 2"/>
+      <img src="report_images/occ_heatmap_2.jpg" alt="Occlusion sample 2"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (d) Classified as:<br/>
         Exterior: 10.1%<br/>
@@ -385,8 +385,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="occ_int_3.jpg" alt="Occlusion sample 3"/>
-      <img src="occ_heatmap_3.jpg" alt="Occlusion sample 3"/>
+      <img src="report_images/occ_int_3.jpg" alt="Occlusion sample 3"/>
+      <img src="report_images/occ_heatmap_3.jpg" alt="Occlusion sample 3"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (e) Classified as:<br/>
         Exterior: 0.0%<br/>
@@ -394,8 +394,8 @@ Masking the parts of the image with high focus shows to slightly affect predicti
       </p>
     </div>
     <div>
-      <img src="occ_int_6.jpg" alt="Occlusion sample 6"/>
-      <img src="occ_heatmap_6.jpg" alt="Occlusion sample 6"/>
+      <img src="report_images/occ_int_6.jpg" alt="Occlusion sample 6"/>
+      <img src="report_images/occ_heatmap_6.jpg" alt="Occlusion sample 6"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (f) Classified as:<br/>
         Exterior: 3.8%<br/>
@@ -413,7 +413,7 @@ Masking the parts of the image with high focus shows to slightly affect predicti
 
 <div style="float:right; width:175px; margin-left:30px; page-break-inside:avoid;">
   <div style="margin-bottom:30px; margin-top:7px;">
-    <img src="noise.jpg" alt="Noise"/>
+    <img src="report_images/noise.jpg" alt="Noise"/>
     <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
       Figure 16: Random noise classified as:<br/>
       Exterior: 100.0%<br/>
@@ -430,7 +430,7 @@ Although relatively uncommon, incorrect classifications does occur. Many of whic
 <div style="background-color:#f8f8f8; padding:10px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap:5px; margin-bottom:10px;">
     <div>
-      <img src="fp_1.jpg" alt="Incorrect classification example 1"/>
+      <img src="report_images/fp_1.jpg" alt="Incorrect classification example 1"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (a) Exterior classified as:<br/>
         Exterior: 0.0%<br/>
@@ -438,7 +438,7 @@ Although relatively uncommon, incorrect classifications does occur. Many of whic
       </p>
     </div>
     <div>
-      <img src="fp_4.jpg" alt="Incorrect classification example 4"/>
+      <img src="report_images/fp_4.jpg" alt="Incorrect classification example 4"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (b) Exterior classified as:<br/>
         Exterior: 0.0%<br/>
@@ -446,7 +446,7 @@ Although relatively uncommon, incorrect classifications does occur. Many of whic
       </p>
     </div>
     <div>
-      <img src="fp_2.jpg" alt="Incorrect classification example 2"/>
+      <img src="report_images/fp_2.jpg" alt="Incorrect classification example 2"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (c) Interior classified as:<br/>
         Exterior: 100.0%<br/>
@@ -454,7 +454,7 @@ Although relatively uncommon, incorrect classifications does occur. Many of whic
       </p>
     </div>
     <div>
-      <img src="fp_3.jpg" alt="Incorrect classification example 3"/>
+      <img src="report_images/fp_3.jpg" alt="Incorrect classification example 3"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (d) Interior classified as:<br/>
         Exterior: 100.0%<br/>
@@ -474,13 +474,13 @@ Early versions of the classifier was horribly overfitted on blue color and class
 <div style="background-color:#f8f8f8; padding:30px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr; grid-gap:25px; margin-bottom:10px;">
     <div>
-      <img src="blue_ceiling_original.jpg" alt="Blue ceiling before editing "/>
+      <img src="report_images/blue_ceiling_original.jpg" alt="Blue ceiling before editing "/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
         (a) Sample image of interior before editing
       </p>
     </div>
     <div>
-      <img src="blue_ceiling.jpg" alt="Blue ceiling edited with blue ceiling"/>
+      <img src="report_images/blue_ceiling.jpg" alt="Blue ceiling edited with blue ceiling"/>
       <p style="font-size:90%; font-style:italic; text-align:center; margin:0;">
         (b) Sample image of interior edited with blue ceiling
       </p>
@@ -517,7 +517,7 @@ Various interesting classifications are presented in this section. The classific
 <div style="background-color:#f8f8f8; padding:10px; page-break-inside:avoid;">
   <div style="width:100%; display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; grid-gap:5px; margin-bottom:10px;">
     <div>
-      <img src="southpark_ext.jpg" alt="Southpark exterior"/>
+      <img src="report_images/southpark_ext.jpg" alt="Southpark exterior"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (a) Classified as:<br/>
         Exterior: 99.9%<br/>
@@ -525,7 +525,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="southpark_int.jpg" alt="Southpark interior"/>
+      <img src="report_images/southpark_int.jpg" alt="Southpark interior"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (b) Classified as:<br/>
         Exterior: 2.0%<br/>
@@ -533,7 +533,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="xmastree_int.jpg" alt="Christmas tree interior"/>
+      <img src="report_images/xmastree_int.jpg" alt="Christmas tree interior"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (c) Classified as:<br/>
         Exterior: 51.1%<br/>
@@ -541,7 +541,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="window_int.jpg" alt="Window from inside"/>
+      <img src="report_images/window_int.jpg" alt="Window from inside"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (d) Classified as:<br/>
         Exterior: 99.4%<br/>
@@ -549,7 +549,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="painting_int.jpg" alt="Painting on wall"/>
+      <img src="report_images/painting_int.jpg" alt="Painting on wall"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (e) Classified as:<br/>
         Exterior: 0.1%<br/>
@@ -557,7 +557,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="painting_int_2.jpg" alt="Painting on wall"/>
+      <img src="report_images/painting_int_2.jpg" alt="Painting on wall"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (f) Classified as:<br/>
         Exterior: 66.7%<br/>
@@ -565,7 +565,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="rmit.jpg" alt="Rmit"/>
+      <img src="report_images/rmit.jpg" alt="Rmit"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (g) Classified as:<br/>
         Exterior: 96.9%<br/>
@@ -573,7 +573,7 @@ Various interesting classifications are presented in this section. The classific
       </p>
     </div>
     <div>
-      <img src="victoria_state_library.jpg" alt="Victoria state library"/>
+      <img src="report_images/victoria_state_library.jpg" alt="Victoria state library"/>
       <p style="font-size:90%; font-style:italic; margin:0; margin-left:15px; text-align:center;">
         (h) Classified as:<br/>
         Exterior: 0.1%<br/>
