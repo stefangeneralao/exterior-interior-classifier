@@ -5,9 +5,8 @@ import Prediction from '../Prediction/Prediction';
 import Header from '../Header/Header';
 import axios from 'axios';
 
-console.log(process.env);
-const apiURL = 'http://ec2-3-10-175-0.eu-west-2.compute.amazonaws.com:3001';
-const classifierURL = `${ apiURL }/prediction/exterior_interior`;
+const classifierURL = process.env.REACT_APP_CLASSIFIER_URL ||
+  'localhost:3001/prediction/exterior_interior';
 
 function App() {
   const [ imageURL, setImageURL ] = useState();
