@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 import axios from 'axios';
 
 const classifierURL = process.env.REACT_APP_CLASSIFIER_URL ||
-  'localhost:3001/prediction/exterior_interior';
+  'http://localhost:3001/prediction/exterior_interior';
 
 function App() {
   const [ imageURL, setImageURL ] = useState();
