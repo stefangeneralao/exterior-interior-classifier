@@ -469,6 +469,7 @@ Although relatively uncommon, incorrect classifications does occur. Many of whic
 </div>
 
 <div style="page-break-after: always;"></div>
+
 ## 10 Early stages
 
 Early versions of the classifier was horribly overfitted on blue color and classified many images with blue color as exterior. Confirmation of the assumption was made by taking an interior image, which was also classified as interior, and then coloring the ceiling blue in an editing software. The modified image was then classified as exterior. At this part it was decided that the classifier would be trained on grayscale images instead of colored.
