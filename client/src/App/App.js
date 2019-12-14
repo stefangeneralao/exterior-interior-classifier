@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
-import Camera from './Camera';
-import Prediction from './Prediction';
-import Header from './Header';
+import Camera from '../Camera/Camera';
+import Prediction from '../Prediction/Prediction';
+import Header from '../Header/Header';
 import axios from 'axios';
 
+console.log(process.env);
 const apiURL = 'http://ec2-3-10-175-0.eu-west-2.compute.amazonaws.com:3001';
 const classifierURL = `${ apiURL }/prediction/exterior_interior`;
 
