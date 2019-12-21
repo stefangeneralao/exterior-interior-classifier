@@ -2,7 +2,7 @@ FROM node:13-alpine
 WORKDIR /usr/src/app
 RUN yarn
 COPY . .
-ENV CLASSIFIER_URL="http://172.31.13.22"
+ENV CLASSIFIER_URL="http://176.58.115.55"
 ENV CLASSIFIER_PORT="3002"
 EXPOSE 3001
 CMD ["node", "."]
