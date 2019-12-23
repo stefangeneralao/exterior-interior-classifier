@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header>RMIT Analytica</Header>
+      <Header>Exterior Interior Classifier</Header>
       <Camera
         onImageUpload={ onImageUploadHandler }
         imageURL={ imageURL }
