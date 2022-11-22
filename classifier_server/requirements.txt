@@ -1,6 +1,6 @@
 Keras==2.2.5
 numpy==1.16.2
 Flask==1.1.1
-Pillow==6.2.1
+Pillow==9.3.0
 requests==2.22.0
 tensorflow==1.14.0
